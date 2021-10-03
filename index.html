@@ -40,6 +40,17 @@
 
             <div class="col">
                 <div class="user">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Luke Chesser
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">top album</a>
+                            <a class="dropdown-item" href="#">browse</a>
+                            <a class="dropdown-item" href="#">your music</a>
+                        </div>
+                    </div>
                     <a href="#">Luke Chesser</a>
                 </div>
             </div>
@@ -81,8 +92,8 @@
                 </p>
             </div>
         </div>
-        <div class="stats-links container row">
-            <div class="col-lg-6">
+        <div class="stats-links container row justify-content-between">
+            <div class="col-lg-auto">
                 <section class="stats">
                     <span>2 Playlists</span>
                     <span>4 Reviews</span>
@@ -91,7 +102,7 @@
                 </section>
             </div>
 
-            <div class="links col-lg-6">
+            <div class="links col-lg-auto">
                 <div>
                     <a href="#">Collection</a>
                     <a href="#">History</a>
@@ -100,9 +111,15 @@
         </div>
     </header>
 
-    <h2>Top Album</h2>
-    <div>
-        <a class="station" href="#">Start Station</a>
+    <div class="container">
+        <div class="row justify-content-between">
+
+
+            <h2 class="col-sm-auto">Top Album</h2>
+            <div class="col-sm-auto">
+                <a class="station" href="#">Start Station</a>
+            </div>
+        </div>
     </div>
     <section id="albums">
         <div class="container-fluid row">
