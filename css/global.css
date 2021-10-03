@@ -150,7 +150,7 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.75em;
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
@@ -169,43 +169,44 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    text-size-adjust: auto;
+    font-size: 0.75em;
     color: #89949b;
-    margin: 10px 0;
+    margin: 0.625em 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 0.0625em solid #cbcbcb;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 0.9375em #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top:  0.375em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: 0.25em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 0.3125em;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 1.25em;
+    padding-top: 0.125em;
 }
 
 nav a.heavy {
